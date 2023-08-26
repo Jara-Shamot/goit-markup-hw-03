@@ -13,6 +13,28 @@
     cursor: pointer;
 }
 
+h1,
+h2,
+h3,
+p {margin-top: auto;
+margin-bottom: 0;}
+
+ul, ol {margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+img {display: block;}
+
+.container{
+width: 1188px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+
 .button:hover{
     background-color: #404BBF;
 }
@@ -37,16 +59,37 @@ body{
     background-color:#FFFFFF;
 }
 
+.page-header-container {
+  display: flex; 
+justify-content: space-between;
+}
 
+.page-header{
+ padding-top: 24px;
+ padding-bottom: 24px;
+ justify-content: space-between;   
+}
+.page-navigation{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 744px;
+}
+.nav-list{
+    display: flex;
+    margin-left: 76px;
+    column-gap: 40px;
+}
 .logo{
         flex-shrink: 0;
+        align-items: center;
         color: #2E2F42;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.54px;
-        text-transform: uppercase;
+        text-transform: uppercase;       
 }
 
 .bold-raleway-web{
@@ -80,6 +123,10 @@ body{
     font-style: normal;
 }
 
+.address-list {
+    display: flex;
+    column-gap: 40px;
+}
 .address-list-item-link{
     color: #434455;
     font-family: 'Roboto', sans-serif;
@@ -88,7 +135,9 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+.menu{
+  column-gap: 40px;  
+}
 .menu-link:hover,
 .menu-link:focus{
 color: var(--accent-color);
@@ -106,7 +155,7 @@ color: var(--accent-color);
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: center;  
 }
 .navy-background{
 flex-shrink: 0;
@@ -120,8 +169,27 @@ background:#2E2F42;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-        
-.list-head{
+
+.all-list{
+display: flex;
+column-gap: 24px;
+}
+
+.section-two{
+    padding-top: 120px;
+    padding-bottom: 54px;
+    
+}
+.section-three{
+    padding-top: 54px;
+    padding-bottom: 132px;
+}
+
+.all-list-item{
+    width: 264px;
+}
+
+.all-list-head{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -148,6 +216,7 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform:capitalize;
+    padding-bottom: 74px;
 }
 
 .over{
@@ -176,6 +245,10 @@ background-color: #F4F4FD;
     background-color: #FFFFFF;
 }
 
+.people-list{
+    display: flex;
+    column-gap: 24px;
+}
 .portfolio-item{
 background: #FFF;
 }
@@ -190,6 +263,9 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.portfolio-list{
+display: flex;
+column-gap: 24px;}
 
 .third-title-portfolio{
     color: #2E2F42;
