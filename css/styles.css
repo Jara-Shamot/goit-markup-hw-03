@@ -12,6 +12,7 @@
 .button{
     cursor: pointer;
    text-align: center;
+border-radius: 4px;
 }
 
 h1,
@@ -100,7 +101,8 @@ justify-content: space-between;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.54px;
-        text-transform: uppercase;       
+        text-transform: uppercase;
+        margin-right: 76px;
 }
 
 .bold-raleway-web{
@@ -166,32 +168,34 @@ color: var(--accent-color);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em;
-    width: 496px; 
+    letter-spacing: 0.02em; 
     height: 120px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 496px;
 }
 .navy-background{
 flex-shrink: 0;
 background:#2E2F42;
 }
 .navy-container{
-    padding-top: 186px;
-    padding-bottom: 186px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
-.visually-hidden
-{
-    white-space: nowrap;
-    clip-path: inset(100%);
+.visually-hidden {
     clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
     overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .all-list{
 display: flex;
-column-gap: 24px;
+gap: 24px;
 }
 
 .list-head{
