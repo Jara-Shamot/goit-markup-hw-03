@@ -77,7 +77,8 @@ justify-content: space-between;
 .page-header{
  padding-top: 24px;
  padding-bottom: 24px;
- justify-content: space-between;   
+ justify-content: space-between; 
+ border-bottom: 1px solid #e7e9fc;  
 }
 .page-navigation{
     display: flex;
@@ -353,4 +354,7 @@ color: #F4F4FD;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
