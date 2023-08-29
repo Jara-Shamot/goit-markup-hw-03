@@ -89,40 +89,22 @@ justify-content: space-between;
 }
 .nav-list{
     display: flex;
-    margin-left: 76px;
-    column-gap: 40px;
-}
-.logo{
-        flex-shrink: 0;
-        align-items: center;
-        color: #2E2F42;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        margin-right: 76px;
+    column: 40px;
 }
 
-.bold-raleway-web{
-    color: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+.logo {
+    color: #4d5ae5;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    margin-right: 76px;
 }
 
-.bold-raleway-studio{
-    color:  #2E2F42;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo-accent{
+color: #2e2f42;
 }
 .menu-link{
     color:  #2E2F42;
@@ -131,6 +113,8 @@ justify-content: space-between;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .adress{
     font-style: normal;
@@ -184,13 +168,16 @@ background:#2E2F42;
 }
 
 .visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
     position: absolute;
-    white-space: nowrap;
     width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .all-list{
@@ -330,13 +317,26 @@ color: #434455;
     margin-left: 16px;
     margin-right: 16px;}
 
-.navy-background-footer {
-    background: #2E2F42;
+.footer {
+    background-color: #2E2F42;
     padding: 100px 0;
+    text-align: left;
+    color: #f4f4fd;
 }
     
-.navy-container-footer {
+.container-footer {
     
+}
+.footer-logo {
+    color: #4d5ae5;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-text{
     color: #F4F4FD;
@@ -350,15 +350,7 @@ color: #434455;
     margin-top: 17px;
 }
 
-.bold-raleway-studio-white{
-color: #F4F4FD;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
 
+.logo-accent-footer{
+color: #F4F4FD;
 }
