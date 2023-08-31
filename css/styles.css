@@ -77,14 +77,11 @@ justify-content: space-between;
 .page-header{
  padding-top: 24px;
  padding-bottom: 24px;
- justify-content: space-between; 
  border-bottom: 1px solid #e7e9fc;  
 }
 .page-navigation{
     display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 744px;
 }
 .nav-list{
     display: flex;
@@ -289,6 +286,9 @@ color: #434455;
     flex-wrap: wrap;
     gap: 48px 24px;
 }
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;}
 
 .third-title-portfolio{
     color: #2E2F42;
