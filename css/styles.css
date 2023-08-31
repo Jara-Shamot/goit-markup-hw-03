@@ -118,7 +118,7 @@ color: #2e2f42;
 
 .address-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .address-list-item-link{
     color: #434455;
