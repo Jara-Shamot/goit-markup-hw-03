@@ -129,7 +129,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
 }
 .menu{
-  column-gap: 40px;  
+  gap: 40px;  
 }
 .menu-link:hover,
 .menu-link:focus{
@@ -269,7 +269,7 @@ color: #434455;
 
 .conteiner-ourteam{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .portfolio-item{
     display: flex;
